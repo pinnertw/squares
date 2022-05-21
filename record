@@ -1,0 +1,17 @@
+string [5] faceColor = ["#23C873", "url(#wave1)", "url(#wave2)", "#EBD9D9", "#DBB17F"];
+string [5] faceProperty = ["Kevin", "Alien", "Gold", "Pale", "White"];
+
+string [4] noseColor = ["#DDEE0C", "red", "blue", "#363636"];
+string [4] noseProperty = ["yellow", "red", "blue", "gray"];
+
+string [4] eyesColor = ["#533205", "#FFFFFF", "#9D77CC", "#6E4644"];
+string [4] eyesProperty = ["darkbrown", "white", "purple", "lightbrown"];
+
+string [4] mouthColor = ["#2F754F", "red", "#000000", "#C9C9C9"];
+string [4] mouthProperty = ["darkgreen", "red", "black", "silver"];
+struct SquareObject {
+    uint colorSeed;
+    uint balance;
+    uint holdTime;
+    string result;
+}
